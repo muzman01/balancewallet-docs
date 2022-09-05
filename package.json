@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/MetaMask/metamask-docs/issues"
   },
-  "homepage": "https://github.com/MetaMask/metamask-docs",
+  "homepage": ".",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.4",
     "@vuepress/plugin-medium-zoom": "^1.5.4",
