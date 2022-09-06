@@ -150,10 +150,16 @@ const guideSidebar = [
  {
   title:"Balance Wallet Terms of Use",
   collapsable:false,
+  children:[
+    'balance-wallet-terms-of-use'
+  ]
  },
  {
   title:"Balance Wallet Privacy Policy",
   collapsable:false,
+  children:[
+    'balance-ballet-privacy-policy'
+  ]
  },
  
 ];
