@@ -18,7 +18,7 @@ module.exports = (_ctx) => ({
     [
       'script',
       {
-        'data-domain': 'docs.metamask.io',
+        'data-domain': '',
         src: 'https://plausible.io/js/plausible.js',
       },
     ],
