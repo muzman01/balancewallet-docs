@@ -6,11 +6,11 @@ Once you have your basic dev environment [set up](./Getting-Started), you are re
 
 If you aren't connected to the right network, you aren't going to have any luck sending transactions to your contract, so make sure you have this right! Many dapp developers choose to deploy their contract to a testnet first, in order to avoid potentially disastrous fees if something goes wrong during development and testing on mainnet.
 
-No matter which network you deploy your final dapp on, your user will need to be able to access it. MetaMask makes available [wallet_switchEthereumChain](https://docs.metamask.io/guide/rpc-api.html#other-rpc-methods), as well as [wallet_addEthereumChain](https://docs.metamask.io/guide/rpc-api.html#wallet-addethereumchain), which allows you to prompt the user to add a chain that you suggest, and switch to it using a confirmation dialogue.
+No matter which network you deploy your final dapp on, your user will need to be able to access it. Balance Wallet makes available, which allows you to prompt the user to add a chain that you suggest, and switch to it using a confirmation dialogue.
 
 ## The Contract Address
 
-Every account in Ethereum has an address, whether it's an external key-pair account, or a smart contract. In order for any smart contract library to communicate with your contracts, they'll need to know its exact address. If you deployed a contract, you probably know how to find the address, but if you're just getting started, check out our Knowledgebase [explainer on finding contract addresses.](https://metamask.zendesk.com/hc/en-us/articles/360059683451-How-to-view-or-add-custom-token-contract-address)
+Every account in Ethereum has an address, whether it's an external key-pair account, or a smart contract. In order for any smart contract library to communicate with your contracts, they'll need to know its exact address. If you deployed a contract, you probably know how to find the address, but if you're just getting started, check out our Knowledgebase 
 
 ## The Contract ABI
 

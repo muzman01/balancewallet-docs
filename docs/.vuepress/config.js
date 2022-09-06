@@ -51,7 +51,7 @@ module.exports = (_ctx) => ({
   theme: '@vuepress/theme-default',
 
   themeConfig: {
-    repo: 'MetaMask/metamask-docs',
+    repo: 'muzman01/balancewallet-docs',
     docsDir: 'docs',
     docsBranch: 'main',
     editLinks: true,
@@ -136,27 +136,8 @@ const guideSidebar = [
       'sending-transactions',
     ],
   },
-  {
-    title: 'API Reference',
-    collapsable: false,
-    children: [
-      'ethereum-provider',
-      'provider-migration',
-      'rpc-api',
-      'signing-data',
-    ],
-  },
-  {
-    title: 'Best Practices',
-    collapsable: false,
-    children: [
-      'registering-function-names',
-      'registering-your-token',
-      'defining-your-icon',
-      'onboarding-library',
-      'metamask-extension-provider',
-    ],
-  },
+ 
+ 
   {
     title: 'Mobile',
     collapsable: false,
@@ -166,20 +147,13 @@ const guideSidebar = [
       'mobile-best-practices',
     ],
   },
-  {
-    title: 'Snaps',
-    collapsable: false,
-    children: [
-      'snaps',
-      'snaps-development-guide',
-      'snaps-rpc-api',
-      'snaps-permissions',
-      'snaps-patching-dependencies',
-    ],
-  },
-  {
-    title: 'Resources',
-    collapsable: false,
-    children: ['create-dapp', 'contributors'],
-  },
+ {
+  title:"Balance Wallet Terms of Use",
+  collapsable:false,
+ },
+ {
+  title:"Balance Wallet Privacy Policy",
+  collapsable:false,
+ },
+ 
 ];
